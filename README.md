@@ -4,10 +4,12 @@ Grupo 3 fecha de entrega Domingo 28 de Junio.<br><br><br>
 
 Integrantes del proyecto y Rol que desempeñan <br><br><br>
 
-Ingrid: Encargada de  crear funciones /sección para el chef del sitio.<br>
-Adrian: Encargado de  realizar funciones para el usuario <br>
-Julio:  Encargado de realizar las funciones para el admind del sitio <br>
-Abraham:  Encargado de realizar las funciones botones del sitio comunidad<br> 
+A. Ingrid: Encargada de  crear funciones  para la sección  del chef.<br>
+B. Adrian: Encargado de  crear funciones  para la sección del usuario <br>
+C. Julio:  Encargado de  crear funciones  para la sección del admin del sitio <br>
+D. Abraham:  Encargado de  crear funciones  para la sección del sitio comunidad<br> 
+
+Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?origin=share <br><br>
 
 Alcance. <br><br>
 
