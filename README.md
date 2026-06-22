@@ -13,8 +13,8 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 Alcance. <br><br>
 
-Para generar mas participación en el Foro de la empresa Gestion Culinaria S.A. la cual la conforman usuarios como expertos en cocina, Chefs, admin/moderador del foro y la plataforma como elemento principal para compartir, y crear recetas sobre la inspiración culinaria y que ayuda a visualizar recetas, rankings, retroalimentacion y tips entre la comunidad en tiempo real.  <br><br>
+Para generar una participación continua en el Foro de  Gestion Culinaria S.A. la cual la conforman usuarios como: expertos en cocina, Chefs, moderadores; el fin es crear recetas sobre la inspiración culinaria que ayude a visualizar recetas, rankings, retroalimentación y tips entre la comunidad en tiempo real.  <br><br>
 
-Este proyecto aborda esa brecha mediante un ecosistema de comunidad donde chefs expertos y aficionados no solo comparten recetas estructuradas por costos y rankings, sino que interactúan en tiempo real. La plataforma resuelve la desconexión entre planificar un menú, rankear y comentar; automatizando listas de compras basadas en ingredientes disponibles. <br><br>
+Este proyecto aborda esa brecha mediante un ecosistema de comunidad donde chefs expertos y aficionados no solo comparten recetas estructuradas por costos y rankings, sino que interactúan en tiempo real. La plataforma resuelve la desconexión entre planificar un menú, rankear y comentar; automatizando listas de compras basadas en ingredientes, instrucciones, y video disponibles. <br><br>
 
-Además, formaliza la colaboración comunitaria al permitir versiones derivadas con atribución, moderación de contenido donde se incentive la participación de la comunidad que es la que da retroalimentacion sobre las recetas posteadas. Así, la problemática inicial de desorganización se transforma en una experiencia gastronómica optimizada, medible y conectada. <br><br>
+Además, formaliza la colaboración comunitaria al permitir versiones derivadas con atribución, moderación de contenido donde se incentive la participación de la comunidad que es la que da la principal fuente de retroalimentacion sobre las recetas posteadas. Así, la problemática inicial de desorganización se transforma en una experiencia gastronómica optimizada, medible y conectada. <br><br>
