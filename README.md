@@ -13,7 +13,7 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 Alcance. <br><br>
 
-Para llevar un control que le ayude al negocio llamado gestion Culinaria que lo usara el Chef, el usuario que desarrolla sus recetas favoritas, admin/moderador del sitio y la plataforma como elemento principal para exponer funcionalidades mas usadas y con la falta de herramientas que unifiquen la inspiración culinaria y el control del bolsillo que le ayude al negocio a visualizar sus operaciones en tiempo real.  <br><br>
+Para generar mas participación en el Foro de la empresa Gestion Culinaria S.A. la cual la conforman usuarios como expertos en cocina, Chefs, admin/moderador del foro y la plataforma como elemento principal para compartir, y crear recetas sobre la inspiración culinaria y que ayuda a visualizar recetas, rankings, retroalimentacion y tips entre la comunidad en tiempo real.  <br><br>
 
 Este proyecto aborda esa brecha mediante un ecosistema de comunidad donde chefs expertos y aficionados no solo comparten recetas estructuradas por costos y rankings, sino que interactúan en tiempo real. La plataforma resuelve la desconexión entre planificar un menú, rankear y comentar; automatizando listas de compras basadas en ingredientes disponibles. <br><br>
 
