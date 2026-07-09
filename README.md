@@ -13,6 +13,9 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 Alcance. <br><br>
 
+El sistema de recetas está diseñado para conectar tres tipos de usuarios: chefs, administradores y comunidad general. Cada módulo define funciones específicas: los chefs crean y comparten recetas con ingredientes, precios y niveles de dificultad; los usuarios buscan, filtran y guardan recetas según tipo, país o rango de precio; y los administradores gestionan contenido, métricas y moderación. Además, la comunidad puede seguir a los chefs, comentar, puntuar recetas y participar en retos culinarios. El alcance incluye la gestión completa del ciclo de vida de una receta desde su creación hasta su interacción social, garantizando una experiencia colaborativa, educativa y gamificada dentro de la plataforma. <br><br>
+
+
 Para generar una participación continua en el Foro de  Gestion Culinaria S.A. la cual la conforman usuarios como: expertos en cocina, Chefs, moderadores; el fin es crear recetas sobre la inspiración culinaria que ayude a visualizar recetas, rankings, retroalimentación y tips entre la comunidad en tiempo real.  <br><br>
 
 Este proyecto aborda esa brecha mediante un ecosistema de comunidad donde chefs expertos y aficionados no solo comparten recetas estructuradas por costos y rankings, sino que interactúan en tiempo real. La plataforma resuelve la desconexión entre planificar un menú, rankear y comentar; automatizando listas de compras basadas en ingredientes, instrucciones, y video disponibles. <br><br>
