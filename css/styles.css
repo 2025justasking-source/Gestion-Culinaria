@@ -442,3 +442,156 @@ a {
     flex: 1;
   }
 }
+
+/* estilos seccion admin */
+
+/* Tablas */
+.tabla-admin { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 16px; 
+}
+.tabla-admin th, .tabla-admin td { 
+  padding: 16px 12px; 
+  text-align: left; 
+  border-bottom: 1px solid var(--borde); 
+}
+.tabla-admin th { 
+  color: var(--morado-oscuro); 
+  font-weight: 600; 
+  font-size: 0.95rem; 
+}
+.tabla-admin td { 
+  font-size: 0.95rem; 
+  color: var(--texto); 
+}
+
+/* Etiquetas*/
+.badge { 
+  padding: 4px 10px; 
+  border-radius: 12px; 
+  font-size: 0.8rem; 
+  font-weight: 600; 
+  display: inline-block; 
+}
+.badge-activo { 
+  background-color: #e6f4ea; 
+  color: #137333; 
+}
+.badge-baneado { 
+  background-color: #fce8e6; 
+  color: #c5221f; 
+}
+.badge-rol { 
+  background-color: var(--fondo); 
+  color: var(--morado-oscuro); 
+  border: 1px solid var(--morado-claro); 
+}
+
+/* Formularios en Modales */
+.form-group { 
+  margin-bottom: 16px; 
+  text-align: left; 
+}
+.form-group label { 
+  display: block; 
+  margin-bottom: 6px; 
+  font-weight: 600; 
+  color: var(--morado-oscuro); 
+  font-size: 0.9rem; 
+}
+.form-group input, 
+.form-group select { 
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid var(--borde); 
+  border-radius: 8px; 
+  font-family: inherit; 
+}
+
+/* Lógica CSS */
+.modal-css { 
+  display: none; 
+  position: fixed; 
+  top: 0; left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background: rgba(58, 38, 69, 0.6); 
+  align-items: center; 
+  justify-content: center; 
+  z-index: 1000; 
+}
+.modal-css:target { 
+  display: flex; 
+}
+.modal-contenido { 
+  background: var(--blanco); 
+  padding: 32px; 
+  border-radius: 16px; 
+  width: 90%; 
+  max-width: 500px; 
+  box-shadow: 0 10px 25px var(--sombra); 
+  position: relative; 
+  text-align: left; 
+}
+.cerrar-modal { 
+  position: absolute; 
+  top: 16px; 
+  right: 24px; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: var(--texto-suave); 
+  text-decoration: none; 
+}
+.cerrar-modal:hover { 
+  color: var(--morado-oscuro); 
+}
+.modal-footer { 
+  display: flex; 
+  justify-content: flex-end; 
+  gap: 12px; 
+  margin-top: 24px; 
+}
+
+/* Admin responsive*/
+
+/* Contenedor para evitar que las tablas rompan el diseño en móvil */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+    /* Ajuste de filtros de búsqueda */
+    .filtros {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+        margin-top: 12px;
+    }
+    
+    .filtros input, .filtros .boton {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    /* Reducir padding en tablas para ganar espacio */
+    .tabla-admin th, .tabla-admin td {
+        padding: 12px 8px;
+        font-size: 0.85rem;
+    }
+
+    /* Apilar botones en los modales */
+    .modal-footer {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .modal-footer .boton {
+        width: 100%;
+        margin: 0 !important;
+        text-align: center;
+    }
+}
