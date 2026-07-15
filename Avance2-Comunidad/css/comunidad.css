@@ -1,0 +1,116 @@
+.titulo{
+    color: coral;
+}
+.tab{
+    background-color:  coral;
+    display: flex;
+    justify-content: space-between; 
+    width: 75%;
+    transition: 0.8s;
+}
+.cuadro{
+    box-sizing: border-box;
+    padding: 5px;
+    border-color: black;
+    border: 1px solid;
+    width: 33.3333333%;
+    cursor: pointer;
+
+}
+.filtro img {
+    width: 30%;
+    height: 80%;
+    margin: 5px;     
+    display: block;
+
+}
+.superior{
+    display: flex;
+    justify-content: space-between; 
+}
+.filtro{
+    text-align: center;
+    box-sizing: border-box;
+    width: 10%;
+    border-color: black;
+    border: 1px solid;cursor: pointer;
+    background-color:  coral;
+    transition: 0.8s;
+    display: flex;
+    justify-content: space-between;
+
+}
+.filtro:hover{
+    background-color: rgb(129, 79, 37);
+}
+.cuadro:hover{
+    background-color: rgb(129, 79, 37);
+}
+
+.card{
+  background-color: antiquewhite;
+  display: flex;              
+  align-items: flex-start;    
+  gap: 15px;                 
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);  
+  border-radius: 8px;
+}
+.botones{
+    background-color: rgb(247, 227, 202);
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+}
+.imagen{
+    width: 80px;     
+    flex-shrink: 0;
+}
+.prosa {
+  flex: 1;     
+}
+.imagen img {
+    width: 100%;    
+    height: auto;     
+    display: block;
+
+}
+.info{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;                            
+    justify-content: center;               
+}
+@media (max-width: 700px) {
+  .info {
+    grid-template-columns: 1fr; 
+    gap: 10px;                  
+  }
+
+  .superior {
+    display: block;          
+    margin: 0;              
+  }
+
+  .tab, .filtro {
+    width: 100%;             
+    margin-bottom: 10px;       
+  }
+
+  .card {
+    flex-direction: column;   
+    align-items: center;      
+  }
+
+  .imagen {
+    width: 120px;            
+    margin-bottom: 10px;
+  }
+
+  .prosa {
+    text-align: center;     
+  }
+}
