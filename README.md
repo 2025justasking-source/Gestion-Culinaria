@@ -10,8 +10,33 @@ C. Julio:  Encargado de  crear funciones  para la sección del admin del sitio <
 D. Abraham:  Encargado de  crear funciones  para la sección del sitio comunidad<br> 
 
 Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?origin=share <br><br>
+================================================================================================== <br><br>
 
-Alcance. <br><br>
+-Cómo ejecutar/abrir el proyecto. <br><br>
+
+
+
+================================================================================================== <br><br>
+
+
+-Funcionalidades implementadas (lista) por seccion Chef/Admin/Recetas/Comunidad.  <br><br>
+
+
+
+================================================================================================== <br><br>
+
+
+
+-Explicar brevemente la funcionalidad de Java.Script utilizada, recalcando su validacion y el manejo de eventos. <br><br>
+
+
+
+
+================================================================================================== <br><br>
+
+
+
+Alcance Y descipción. <br><br>
 
 El sistema de recetas está diseñado para conectar tres tipos de usuarios: chefs, administradores y comunidad general. Cada módulo define funciones específicas: los chefs crean y comparten recetas con ingredientes, precios y niveles de dificultad; los usuarios buscan, filtran y guardan recetas según tipo, país o rango de precio; y los administradores gestionan contenido, métricas y moderación. Además, la comunidad puede seguir a los chefs, comentar, puntuar recetas y participar en retos culinarios. El alcance incluye la gestión completa del ciclo de vida de una receta desde su creación hasta su interacción social, garantizando una experiencia colaborativa, educativa y gamificada dentro de la plataforma. <br><br>
 
