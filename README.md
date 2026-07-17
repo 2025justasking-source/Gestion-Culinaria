@@ -11,13 +11,13 @@ C. Julio:  Encargado de  crear funciones  para la sección del admin del sitio <
 D. Abraham:  Encargado de  crear funciones  para la sección del sitio comunidad<br> 
 
 Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?origin=share <br><br>
-===================================================================================== <br><br>
+================================================================================ <br><br>
 
 -Cómo ejecutar/abrir el proyecto. <br><br>
 
 
 
-===================================================================================== <br><br>
+================================================================================ <br><br>
 
 
 
@@ -25,7 +25,7 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 
 
-===================================================================================== <br><br>
+================================================================================ <br><br>
 
 
 
@@ -35,7 +35,7 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 
 
-===================================================================================== <br><br>
+================================================================================ <br><br>
 
 
 
