@@ -1,5 +1,5 @@
 # Gestion-Culinaria
-Grupo 3, fecha de entrega: 15 de julio, 2026.<br><br><br>
+Grupo 3, fecha de entrega: 12 de Agosto, 2026.<br><br><br>
 
 
 Integrantes del proyecto y rol que desempeñan <br><br><br>
