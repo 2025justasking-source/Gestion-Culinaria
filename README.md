@@ -2,7 +2,7 @@
 Grupo 3, fecha de entrega: 15 de julio, 2026.<br><br><br>
 
 
-Integrantes del proyecto y Rol que desempeñan <br><br><br>
+Integrantes del proyecto y rol que desempeñan <br><br><br>
 
 A. Ingrid: Encargada de  crear funciones  para la sección  del chef.<br>
 B. Adrian: Encargado de  crear funciones  para la sección del usuario <br>
@@ -10,20 +10,22 @@ C. Julio:  Encargado de  crear funciones  para la sección del admin del sitio <
 D. Abraham:  Encargado de  crear funciones  para la sección del sitio comunidad<br> 
 
 Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?origin=share <br><br>
-================================================================================================== <br><br>
+===================================================================================== <br><br>
 
 -Cómo ejecutar/abrir el proyecto. <br><br>
 
 
 
-================================================================================================== <br><br>
-
-
--Funcionalidades implementadas (lista) por seccion Chef/Admin/Recetas/Comunidad.  <br><br>
+===================================================================================== <br><br>
 
 
 
-================================================================================================== <br><br>
+-Funcionalidades e implementadas, (lista) por seccion Chef/Admin/Recetas/Comunidad.  <br><br>
+
+
+
+===================================================================================== <br><br>
+
 
 
 
@@ -32,7 +34,7 @@ Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?or
 
 
 
-================================================================================================== <br><br>
+===================================================================================== <br><br>
 
 
 
