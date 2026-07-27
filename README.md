@@ -11,32 +11,88 @@ C. Julio:  Encargado de  crear funciones  para la sección del admin del sitio <
 D. Abraham:  Encargado de  crear funciones  para la sección del sitio comunidad<br> 
 
 Flowchart asignaciones : https://app.eraser.io/workspace/yS6l6pAKOkrFHIvZcIts?origin=share <br><br>
-================================================================================ <br><br>
+================================================================= <br><br>
 
--Cómo ejecutar/abrir el proyecto. <br><br>
+1-Cómo ejecutar/abrir el proyecto. <br><br>
 
+Cómo se ejecuta/abre el proyecto sección Chef:
 
+	Guardar en la estructura correcta: 
 
-================================================================================ <br><br>
+	html/ingredientes.html
 
+	css/cheff.css
+	
+	JS/ingredientes.js
 
-
--Funcionalidades e implementadas, (lista) por seccion Chef/Admin/Recetas/Comunidad.  <br><br>
-
-
-
-================================================================================ <br><br>
-
-
-
-
--Explicar brevemente la funcionalidad de Java.Script utilizada, recalcando su validacion y el manejo de eventos. <br><br>
+	Se abre el archivo ingredientes.html y se vincula a la hoja JS <script src="../JS/ingredientes.js"></script> antes de la labe /body.
 
 
 
+================================================================= <br><br>
 
-================================================================================ <br><br>
 
+
+2-Funcionalidades e implementadas, (lista) por seccion Chef/Admin/Recetas/Comunidad.  <br><br>
+
+Funcionalidades implementadas para la sección Chef:
+
+	a-Agregar productos dinámicamente: el usuario escribe un nombre en el buscador y al presionar Enter o Buscar, aparece un nuevo ingrediente en la lista.
+
+	b-Checkbox interactivo: cada producto tiene un checkbox que el usuario puede marcar o desmarcar.
+
+	c-Asignación de la clase .item.
+
+
+================================================================= <br><br>
+
+3-Explicar brevemente la funcionalidad de Java.Script utilizada, recalcando su validacion y el manejo de eventos. <br><br>
+
+Explicación de la funcionalidad de JavaScript para la sección Chef:
+
+*Selección de elementos:  Usamos document.querySelector para “apuntar” al input, botón, lista y total.
+Ejemplo:const inputProducto = document.querySelector('.buscador input');
+
+
+*Manejo de eventos: Con addEventListener escuchamos acciones del usuario:
+
+ 	 -click en el botón → agrega un producto.
+
+ 	 -keypress en el input → si la tecla es Enter, agrega el producto.
+
+	 -change en los checkboxes → recalcula el total.
+
+
+*Programa valida antes de agregar un producto, verificamos que el campo no esté vacío:
+
+	if (texto === '') {
+ 	 alert('Por favor, ingrese un producto.');
+ 	 return;
+	}
+
+
+*Se crea un nuevo Ingrediente  le damos la clase .item.
+
+	nuevoItem.classList.add('item');
+
+* Se genera un  precio aleatorio entre 1000 y 5000
+
+ 	 const precioRandom = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000;
+
+*Se genera una opcion de eliminar producto de la lista de Ingredientess
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================= <br><br>
 
 
 Alcance Y descipción. <br><br>
