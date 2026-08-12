@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso - Gestión Culinaria</title>
+    <link rel="stylesheet" href="ADMIN/styles.css">
+    <style>
+        .login-container {
+            max-width: 450px;
+            margin: 80px auto;
+            padding: 32px;
+            background: var(--blanco);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px var(--sombra);
+            text-align: center;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 24px;
+            border-bottom: 2px solid var(--borde);
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            background: none;
+            font-weight: bold;
+            color: var(--texto-suave);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+
+        .tab-btn.active {
+            color: var(--morado-oscuro);
+            border-bottom: 3px solid var(--morado-medio);
+        }
+
+        .alerta {
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .alerta.error {
+            background: #fce8e6;
+            color: #c5221f;
+            border: 1px solid #c5221f;
+            display: block;
+        }
+
+        .alerta.exito {
+            background: #e6f4ea;
+            color: #137333;
+            border: 1px solid #137333;
+            display: block;
+        }
+
+        .formulario {
+            display: none;
+        }
+
+        .formulario.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h1 style="color: var(--morado-oscuro); margin-bottom: 16px;">Gestión Culinaria</h1>
+
+        <!-- Pestañas de navegación -->
+        <div class="tabs">
+            <button id="btnTabLogin" class="tab-btn active">Iniciar Sesión</button>
+            <button id="btnTabRegistro" class="tab-btn">Crear Cuenta</button>
+        </div>
+
+        <!-- Contenedor de mensajes (Errores o Éxito) -->
+        <div id="mensajeAlerta" class="alerta"></div>
+
+        <!-- Formulario de Iniciar Sesión -->
+        <form id="formLogin" class="formulario active">
+            <div class="form-group">
+                <label for="loginEmail">Correo Electrónico</label>
+                <input type="text" id="loginEmail" placeholder="usuario@correo.com">
+            </div>
+            <div class="form-group">
+                <label for="loginPassword">Contraseña</label>
+                <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña">
+            </div>
+            <button type="submit" class="boton boton-principal" style="width: 100%; margin-top: 16px;">Ingresar</button>
+        </form>
+
+        <!-- Registro -->
+        <form id="formRegistro" class="formulario">
+            <div class="form-group">
+                <label for="regNombre">Nombre Completo</label>
+                <input type="text" id="regNombre" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="regEmail">Correo Electrónico</label>
+                <input type="text" id="regEmail" placeholder="usuario@correo.com">
+            </div>
+            <div class="form-group">
+                <label for="regPassword">Contraseña</label>
+                <input type="password" id="regPassword" placeholder="Mínimo 5 caracteres">
+            </div>
+            <div class="form-group">
+                <label for="regRol">Tipo de Cuenta</label>
+                <select id="regRol">
+                    <option value="">Seleccione un rol...</option>
+                    <option value="admin">Administrador</option>
+                    <option value="chef">Chef</option>
+                    <option value="usuario">Usuario Estándar</option>
+                </select>
+            </div>
+            <button type="submit" class="boton boton-principal"
+                style="width: 100%; margin-top: 16px;">Registrarse</button>
+        </form>
+    </div>
+    <script src="JS/login.js"></script>
+</body>
+
+</html>

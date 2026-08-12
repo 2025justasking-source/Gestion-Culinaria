@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Gestión Culinaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- HEADER-->
+        <header class="encabezado">
+            <div class="perfil">
+                <!-- Se agregó ID a la foto -->
+                <div class="perfil-foto" id="displayAvatarUsuario"><span
+                        style="color: white; font-weight: bold;">JQ</span></div>
+                <div>
+                    <!-- El ID displayNombreUsuario ya estaba -->
+                    <div class="perfil-nombre" id="displayNombreUsuario">Julio Quesada</div>
+                    <!-- Se agregó ID a la descripción -->
+                    <small id="displayDescripcionUsuario" style="color: var(--texto-suave);">Entusiasta
+                        Culinario</small>
+                </div>
+            </div>
+
+            <nav class="nav-enlaces" style="align-items: center;">
+
+                <!-- burbuja de notificaciones -->
+                <div class="contenedor-notificaciones">
+                    <div class="icono-notificacion" id="btnNotificaciones" title="Notificaciones">
+                        <span style="font-size: 1.2rem;">🔔</span>
+                        <span class="badge-alerta">3</span>
+                    </div>
+
+                    <!-- ejemplos de nots -->
+                    <div class="dropdown-notificaciones" id="menuNotificaciones">
+                        <div class="notificacion-item">
+                            <strong>👨‍🍳 Chef Rebeca</strong> publicó una nueva receta de Lasaña.
+                        </div>
+                        <div class="notificacion-item">
+                            ⭐ Tu receta de <strong>Postre de Limón</strong> recibió una reseña de 5 estrellas.
+                        </div>
+                        <div class="notificacion-item">
+                            👋 ¡Bienvenido a la comunidad de Gestión Culinaria!
+                        </div>
+                    </div>
+                </div>
+
+                <a href="perfil.html" style="font-weight: bold; color: var(--morado-oscuro);">Mi Perfil</a>
+                <a href="login.html" style="color: #c5221f;">Cerrar Sesión</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- busqeda-->
+            <div class="barra-busqueda"
+                style="flex-direction: column; align-items: flex-start; gap: 10px; margin-top: 32px; margin-bottom: 32px;">
+                <h1 style="font-size: 1.8rem;">Descubre Nuevos Sabores</h1>
+                <p style="color: var(--texto-suave); margin: 0;">Encuentra inspiración para tu próxima comida.</p>
+
+                <!-- Buscador x tipo -->
+                <form class="buscador-integrado" id="formBuscadorUsuario">
+                    <select id="filtroBusqueda">
+                        <option value="receta">Por Receta 🍲</option>
+                        <option value="chef">Por Chef 👨‍🍳</option>
+                    </select>
+                    <input type="text" id="inputBusqueda" placeholder="Ej. Lasaña, Postres, Chef Rebeca..." required>
+                    <button type="submit" class="boton boton-principal">Buscar</button>
+                </form>
+            </div>
+
+            <!-- TARJETAS -->
+            <div class="acciones-principales">
+
+                <!-- Recetas seccion julio -->
+                <div class="tarjeta-accion" style="padding: 24px;">
+                    <h3 style="margin: 0;">Explorar Menú</h3>
+                    <p style="font-size: 0.95rem; color: var(--texto-suave);">Explora los platillos mejor valorados de
+                        la semana.</p>
+                    <a href="ADMIN/busqueda.html" class="boton boton-principal">Ver Recetas Top</a>
+                </div>
+
+                <!-- Calculadora de ingrid -->
+                <div class="tarjeta-accion" style="padding: 24px;">
+                    <h3 style="margin: 0;">Calculadora de Ingredientes</h3>
+                    <p style="font-size: 0.95rem; color: var(--texto-suave);">Saca los costos y porciones para preparar
+                        tus platillos favoritos en casa.</p>
+                    <a href="CHEF-ENTREGA-FINAL/html/ingredientes.html" class="boton">Ir a la Calculadora</a>
+                </div>
+
+                <!-- comunidad abraham -->
+                <div class="tarjeta-accion" style="padding: 24px; grid-column: 1 / -1;">
+                    <h3 style="margin: 0;">Foro y Comunidad Culinaria</h3>
+                    <p style="font-size: 0.95rem; color: var(--texto-suave);">Participa en discusiones, tips, publica
+                        tus dudas y únete a retos de cocina con otros entusiastas y chefs.</p>
+                    <a href="Comunidad/HTML/comunida.html" class="boton">Ingresar a la Comunidad</a>
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="pie">
+            <p>Derechos reservados © Gestión Culinaria</p>
+        </footer>
+    </div>
+
+
+    <script src="JS/index_usuario.js"></script>
+</body>
+
+</html>
