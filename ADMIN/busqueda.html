@@ -28,30 +28,65 @@
     <h1>Busqueda de recetas</h1>
     <div class="filtros">
       <span>Filtrar por:</span>
-      <button class="boton">Platos típicos</button>
-      <button class="boton">Rango de precio</button>
+      <button id="filtro-tipico" class="boton">Platos típicos</button>
+      <button id="filtro-precio" class="boton">Rango de precio</button>
     </div>
   </section>
 
   <section class="lista-recetas">
-    <a href="../Recetas/RecetaGalloPinto.html" class="tarjeta-receta">
+    <a href="../Recetas/RecetaGalloPinto.html" class="tarjeta-receta" data-tipico="si" data-precio="bajo">
       <div class="imagen-receta"><img src="../images/pinto.jpg" alt=""></div>
       <div class="detalles-breves">
         <h2>Gallo pinto tradicional</h2>
         <p>Detalles breves de la receta</p>
       </div>
     </a>
-    <a href="../Recetas/RecetaCasado.html" class="tarjeta-receta">
+    <a href="../Recetas/RecetaCasado.html" class="tarjeta-receta" data-tipico="si" data-precio="medio">
       <div class="imagen-receta"><img src="../images/casado.png" alt=""></div>
       <div class="detalles-breves">
         <h2>Casado con pollo</h2>
         <p>Detalles breves de la receta</p>
       </div>
     </a>
-    <a href="../Recetas/RecetaSopaNegra.html" class="tarjeta-receta">
+    <a href="../Recetas/RecetaSopaNegra.html" class="tarjeta-receta" data-tipico="si" data-precio="bajo">
       <div class="imagen-receta"><img src="../images/sopanegra.jpg" alt=""></div>
       <div class="detalles-breves">
         <h2>Sopa negra</h2>
+        <p>Detalles breves de la receta</p>
+      </div>
+    </a>
+    <a href="../Recetas/RecetaTamales.html" class="tarjeta-receta" data-tipico="si" data-precio="medio">
+      <div class="imagen-receta"><img src="../images/tamal.jpg" alt=""></div>
+      <div class="detalles-breves">
+        <h2>Tamales</h2>
+        <p>Detalles breves de la receta</p>
+      </div>
+    </a>
+    <a href="../Recetas/RecetaArrozConPollo.html" class="tarjeta-receta" data-tipico="si" data-precio="medio">
+      <div class="imagen-receta"><img src="../images/ArrozPollo.jpg" alt=""></div>
+      <div class="detalles-breves">
+        <h2>Arroz con pollo</h2>
+        <p>Detalles breves de la receta</p>
+      </div>
+    </a>
+    <a href="../Recetas/RecetaPicadillo.html" class="tarjeta-receta" data-tipico="si" data-precio="bajo">
+      <div class="imagen-receta"><img src="../images/picadillopapa.jpg" alt=""></div>
+      <div class="detalles-breves">
+        <h2>Picadillo de papa</h2>
+        <p>Detalles breves de la receta</p>
+      </div>
+    </a>
+    <a href="../Recetas/RecetaPizza.html" class="tarjeta-receta" data-tipico="no" data-precio="alto">
+      <div class="imagen-receta"><img src="../images/pizza.jpg" alt=""></div>
+      <div class="detalles-breves">
+        <h2>Pizza casera</h2>
+        <p>Detalles breves de la receta</p>
+      </div>
+    </a>
+    <a href="../Recetas/RecetaHamburguesa.html" class="tarjeta-receta" data-tipico="no" data-precio="alto">
+      <div class="imagen-receta"><img src="../images/hamburguesa.jpg" alt=""></div>
+      <div class="detalles-breves">
+        <h2>Hamburguesa clásica</h2>
         <p>Detalles breves de la receta</p>
       </div>
     </a>
@@ -61,5 +96,7 @@
     <a href=../index.html>Volver al inicio</a> / Derechos reservados
   </footer>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
